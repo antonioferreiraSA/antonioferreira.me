@@ -30,7 +30,7 @@ function AboutPage() {
                 <ServicesSection image={intelligence} title={'UI Design'} 
                 text={'I enjoy turning complex problems into simple, beautiful and intuitive designs.'}
                 />
-                <ServicesSection image={gamedev} title={'Front/Back-end Development} 
+                <ServicesSection image={gamedev} title={'Front/Back-end Development'} 
                 text={'There are many ways to create an application, I enjoy picking up new tech and am able to do frontend and backend, as well as mobile development.PWA, React Native, RWD, Node.js, Express, MongoDB'}
                 />
 
