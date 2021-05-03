@@ -14,7 +14,7 @@ const portfolios = [
         icon1: 'G',
         icon2: 'Y',
         image: port1,
-        title: 'Autodesk Maya'
+        title: 'Must use wordpresss API'
     },
     {
         id: 2,
@@ -24,7 +24,7 @@ const portfolios = [
         icon1: 'G',
         icon2: 'Y',
         image: port2,
-        title: 'Python Web Scrapping'
+        title: 'Must use wordpresss API'
     },
     {
         id: 3,
@@ -34,7 +34,7 @@ const portfolios = [
         icon1: 'G',
         icon2: 'Y',
         image: port3,
-        title: 'Autodesk Maya'
+        title: 'Must use wordpresss API'
     },
     {
         id: 4,
@@ -44,7 +44,7 @@ const portfolios = [
         icon1: 'G',
         icon2: 'Y',
         image: port4,
-        title: 'Vanilla Javascript Website'
+        title: 'Must use wordpresss API'
     },
     {
         id: 5,
@@ -54,7 +54,7 @@ const portfolios = [
         icon1: 'G',
         icon2: 'Y',
         image: port6,
-        title: 'Getting Started With React'
+        title: 'Must use wordpresss API'
     },
     {
         id: 6,
@@ -64,7 +64,7 @@ const portfolios = [
         icon1: 'G',
         icon2: 'Y',
         image: port7,
-        title: 'Vanilla Javascript Website'
+        title: 'Must use wordpresss API'
     },
     {
         id: 7,
@@ -74,7 +74,7 @@ const portfolios = [
         icon1: 'G',
         icon2: 'Y',
         image: port4,
-        title: 'Vanilla Javascript Website'
+        title: 'Must use wordpresss API'
     }
 ]
 
