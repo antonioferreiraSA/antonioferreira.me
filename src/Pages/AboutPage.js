@@ -24,14 +24,14 @@ function AboutPage() {
 
             <Tittle title={'Services'} span={'Services'} />
             <div className="servives-container">
-                <ServicesSection image={design} title={'Web design'} 
-                text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
+                <ServicesSection image={design} title={'Web development'} 
+                text={'I specialize in converting graphical interface projects to code that results as fast, responsive, and accessible website or web app.React, Vue.js, Next.js, JavaScript, TypeScript, Jest, GSAP'}
                 />
-                <ServicesSection image={intelligence} title={'Artificial Intelligence'} 
-                text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
+                <ServicesSection image={intelligence} title={'UI Design'} 
+                text={'I enjoy turning complex problems into simple, beautiful and intuitive designs.'}
                 />
-                <ServicesSection image={gamedev} title={'Game Development'} 
-                text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
+                <ServicesSection image={gamedev} title={'Front/Back-end Development} 
+                text={'There are many ways to create an application, I enjoy picking up new tech and am able to do frontend and backend, as well as mobile development.PWA, React Native, RWD, Node.js, Express, MongoDB'}
                 />
 
                 
