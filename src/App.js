@@ -1,11 +1,13 @@
 import './App.scss';
-import NavBar from './Components/NavBar';
-import HomePage from './Pages/HomePage';
-import {Switch, Route} from 'react-router-dom';
+
+import {Route, Switch} from 'react-router-dom';
+
 import AboutPage from './Pages/AboutPage';
-import PortfliosPage from './Pages/PortfoliosPage';
 import BlogsPage from './Pages/BlogsPage';
 import ContactPage from './Pages/ContactPage';
+import HomePage from './Pages/HomePage';
+import NavBar from './Components/NavBar';
+import PortfliosPage from './Pages/PortfoliosPage';
 import { useState } from 'react';
 
 function App() {

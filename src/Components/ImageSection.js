@@ -11,7 +11,8 @@ function ImageSection() {
             <div className="about-info">
                 <h4>I am<span> Antonio Ferreira</span></h4>
                 <p className="about-text">
-                   I'm a Front-End developer based in South Africa I enjoy building and designing websites, I love working with web technology JavaScript, php, Netlify, Linux, MySQL database when I am not building websites, I love learning ethical hacking with kali-Linux, Metasploit, burpsuite etc.
+                   I'm a Web and moblie  developer based in South Africa
+I enjoy building and designing mobile applications and websites, I love working with web technology JavaScript, React.Js,React Native, Expo, Firebase, Netlify, Linux, when I am not building moblie applications and  websites, I love learning about ethical hacking with kali-Linux, Metasploit, burpsuite etc.
                 </p>
                 <div className="about-details">
                     <div className="left-section">
