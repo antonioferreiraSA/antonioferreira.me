@@ -15,7 +15,7 @@ function HomePage() {
                 </h1>
                 <p className="h-sub-text">
                     I'm a Web and moblie  developer based in South Africa
-I enjoy building and designing mobile applications and websites, I love working with web technology JavaScript, React.Js,React Native, Expo, Firebase, Netlify, Linux, when I am not building moblie applications and  websites, I love learning about ethical hacking with kali-Linux, Metasploit, burpsuite etc.
+I enjoy building and designing mobile applications and websites, I love working with web technology JavaScript, React.Js,React Native, Expo, Firebase, Netlify, Linux, Mac OSX, UBUNTU, Kali Linux, Heroku. When I am not building moblie applications and  websites, I love learning about ethical hacking with kali-Linux, Metasploit, burpsuite etc.
                 </p>
                 <div className="icons">
                     <Link to="test" className="icon-holder">
