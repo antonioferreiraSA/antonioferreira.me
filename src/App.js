@@ -1,55 +1,36 @@
-import './App.scss';
+import "./App.css";
 
-import {Route, Switch} from 'react-router-dom';
+import React, { useEffect, useState } from "react";
 
-import AboutPage from './Pages/AboutPage';
-import BlogsPage from './Pages/BlogsPage';
-import ContactPage from './Pages/ContactPage';
-import HomePage from './Pages/HomePage';
-import NavBar from './Components/NavBar';
-import PortfliosPage from './Pages/PortfoliosPage';
-import { useState } from 'react';
+import About from "./Components/About";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
+import Portfolio from "./Components/Portfolio";
+import Resume from "./Components/Resume";
+import Testimonials from "./Components/Testimonials";
 
-function App() {
-  const [navToggle, setNavToggle] = useState(false);
+const App = () => {
+  const [resumeData, setResumeData] = useState({});
 
-  const navClick = () =>{
-    setNavToggle(!navToggle)
-  }
+  useEffect(() => {
+    fetch("/resumeData.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setResumeData(data);
+      });
+  }, []);
 
   return (
     <div className="App">
-      <div className={`sidebar ${navToggle ? 'nav-toggle': ''}`}>
-        <NavBar />
-      </div>
-      <div className="nav-btn" onClick={navClick}>
-        <div className="lines-1"></div>
-        <div className="lines-2"></div>
-        <div className="lines-3"></div>
-      </div>
-      <div className="main-content">
-          <div className="content">
-            <Switch>
-              <Route path="/" exact>
-                <HomePage />
-              </Route>
-              <Route path="/about" exact>
-                <AboutPage />
-              </Route>
-              <Route path="/portfolios" exact>
-                <PortfliosPage />
-              </Route>
-              <Route path="/blogs" exact>
-                <BlogsPage />
-              </Route>
-              <Route path="/contact" exact>
-                <ContactPage />
-              </Route>
-            </Switch>
-          </div>
-      </div>
+      <Header data={resumeData.main} />
+      <About data={resumeData.main} />
+      <Resume data={resumeData.resume} />
+      <Portfolio data={resumeData.portfolio} />
+      <Contact data={resumeData.main} />
+      <Footer data={resumeData.main} />
     </div>
   );
-}
+};
 
 export default App;
